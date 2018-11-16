@@ -203,6 +203,8 @@ def main():
     while True:
         # read user inputs to create filters
         city, month, day = get_filters()
+
+        # load the csv file to a dataframe
         df = load_data(city, month, day)
 
         time_stats(df)
