@@ -1,6 +1,6 @@
 import time
 import pandas as pd
-import numpy as np
+
 
 CITY_DATA = {'chicago': 'chicago.csv',
              'new york city': 'new_york_city.csv',
@@ -201,7 +201,10 @@ def show_raw_data(df):
 
 def main():
     while True:
+        # read user inputs to create filters
         city, month, day = get_filters()
+
+        # load the csv file to a dataframe
         df = load_data(city, month, day)
 
         time_stats(df)
