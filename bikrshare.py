@@ -201,6 +201,7 @@ def show_raw_data(df):
 
 def main():
     while True:
+        # read user inputs to create filters
         city, month, day = get_filters()
         df = load_data(city, month, day)
 
