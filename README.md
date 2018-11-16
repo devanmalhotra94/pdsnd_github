@@ -5,7 +5,8 @@
 US BikeShare Details Tool
 
 ### Description
-This tool allows you to explore US Bike Share Data
+This tool allows you to explore US Bike Share Data.
+This project uses pandas version 0.23.4
 
 ### Files used
 bikeshare.py
