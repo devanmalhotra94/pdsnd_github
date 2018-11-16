@@ -12,3 +12,4 @@ bikeshare.py
 
 ### Credits
 http://pandas.pydata.org
+https://www.dataquest.io/blog/pandas-cheat-sheet/
